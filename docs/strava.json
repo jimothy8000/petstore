@@ -1,5 +1,8 @@
 {
   "swagger": "2.0",
+  "x-stoplight": {
+    "id": "84ebd0633b876"
+  },
   "info": {
     "title": "Strava API v3",
     "description": "The [Swagger Playground](https://developers.strava.com/playground) is the easiest way to familiarize yourself with the Strava API by submitting HTTP requests and observing the responses before you write any client code. It will show what a response will look like with different endpoints depending on the authorization scope you receive from your athletes. To use the Playground, go to https://www.strava.com/settings/api and change your “Authorization Callback Domain” to developers.strava.com. Please note, we only support Swagger 2.0. There is a known issue where you can only select one scope at a time. For more information, please check the section “client code” at https://developers.strava.com/docs.",
@@ -84,6 +87,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "5924g5lptakbo"
         }
       }
     },
@@ -103,7 +109,7 @@
             },
             "examples": {
               "application/json": {
-                "id": 1234567890987654321,
+                "id": 1234567890987654400,
                 "username": "marianne_t",
                 "resource_state": 3,
                 "firstname": "Marianne",
@@ -156,6 +162,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "ednnnw9m5vncb"
         }
       },
       "put": {
@@ -186,7 +195,7 @@
             },
             "examples": {
               "application/json": {
-                "id": 12345678987655098765444,
+                "id": 1.2345678987655098e+22,
                 "username": "marianne_v",
                 "resource_state": 3,
                 "firstname": "Marianne",
@@ -239,6 +248,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "tda7oh00gbrza"
         }
       }
     },
@@ -329,6 +341,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "try0pokd5fk1z"
         }
       }
     },
@@ -407,6 +422,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "wyj96k2ogimnj"
         }
       }
     },
@@ -486,6 +504,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "h7kuv8fonjlri"
         }
       }
     },
@@ -572,6 +593,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "xxbjkv5bcouk4"
         }
       }
     },
@@ -654,11 +678,11 @@
                     "elevation_low": 104.6,
                     "start_latlng": [
                       52.98501000581467,
-                      -3.1869720001197367
+                      -3.1869720001197366
                     ],
                     "end_latlng": [
                       53.02204074375785,
-                      -3.2039630001245737
+                      -3.2039630001245736
                     ],
                     "climb_category": 2,
                     "city": "Le Bourg D'Oisans",
@@ -681,6 +705,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "8l2sr4z9c5r7y"
         }
       }
     },
@@ -773,6 +800,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "6mbr6cjw3eytk"
         }
       }
     },
@@ -863,6 +893,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "os6zi2yfx6jo8"
         }
       }
     },
@@ -1005,6 +1038,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "xclxof6u1ghdp"
         }
       }
     },
@@ -1040,10 +1076,10 @@
             },
             "examples": {
               "application/json": {
-                "id": 12345678987654321,
+                "id": 12345678987654320,
                 "resource_state": 3,
                 "external_id": "garmin_push_12345678987654321",
-                "upload_id": 98765432123456789,
+                "upload_id": 98765432123456780,
                 "athlete": {
                   "id": 134815,
                   "resource_state": 1
@@ -1106,11 +1142,11 @@
                 "calories": 870.2,
                 "segment_efforts": [
                   {
-                    "id": 12345678987654321,
+                    "id": 12345678987654320,
                     "resource_state": 2,
                     "name": "Tunnel Rd.",
                     "activity": {
-                      "id": 12345678987654321,
+                      "id": 12345678987654320,
                       "resource_state": 1
                     },
                     "athlete": {
@@ -1243,6 +1279,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "q5fivqsidoxnc"
         }
       },
       "put": {
@@ -1277,10 +1316,10 @@
             },
             "examples": {
               "application/json": {
-                "id": 12345678987654321,
+                "id": 12345678987654320,
                 "resource_state": 3,
                 "external_id": "garmin_push_12345678987654321",
-                "upload_id": 98765432123456789,
+                "upload_id": 98765432123456780,
                 "athlete": {
                   "id": 134815,
                   "resource_state": 1
@@ -1346,15 +1385,15 @@
                 "calories": 870.2,
                 "segment_efforts": [
                   {
-                    "id": 12345678987654321,
+                    "id": 12345678987654320,
                     "resource_state": 2,
                     "name": "Tunnel Rd.",
                     "activity": {
-                      "id": 12345678987654321,
+                      "id": 12345678987654320,
                       "resource_state": 1
                     },
                     "athlete": {
-                      "id": 12345678987654321,
+                      "id": 12345678987654320,
                       "resource_state": 1
                     },
                     "elapsed_time": 2038,
@@ -1483,6 +1522,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "5xwq1qf1lllxu"
         }
       }
     },
@@ -1525,133 +1567,136 @@
             },
             "examples": {
               "application/json": [
-                    {
-                        "resource_state": 2,
-                        "athlete": {
-                            "id": 134815,
-                            "resource_state": 1
-                        },
-                        "name": "Happy Friday",
-                        "distance": 24931.4,
-                        "moving_time": 4500,
-                        "elapsed_time": 4500,
-                        "total_elevation_gain": 0,
-                        "type": "Ride",
-                        "sport_type": "MountainBikeRide",
-                        "workout_type": null,
-                        "id": 154504250376823,
-                        "external_id": "garmin_push_12345678987654321",
-                        "upload_id": 987654321234567891234,
-                        "start_date": "2018-05-02T12:15:09Z",
-                        "start_date_local": "2018-05-02T05:15:09Z",
-                        "timezone": "(GMT-08:00) America/Los_Angeles",
-                        "utc_offset": -25200,
-                        "start_latlng": null,
-                        "end_latlng": null,
-                        "location_city": null,
-                        "location_state": null,
-                        "location_country": "United States",
-                        "achievement_count": 0,
-                        "kudos_count": 3,
-                        "comment_count": 1,
-                        "athlete_count": 1,
-                        "photo_count": 0,
-                        "map": {
-                            "id": "a12345678987654321",
-                            "summary_polyline": null,
-                            "resource_state": 2
-                        },
-                        "trainer": true,
-                        "commute": false,
-                        "manual": false,
-                        "private": false,
-                        "flagged": false,
-                        "gear_id": "b12345678987654321",
-                        "from_accepted_tag": false,
-                        "average_speed": 5.54,
-                        "max_speed": 11,
-                        "average_cadence": 67.1,
-                        "average_watts": 175.3,
-                        "weighted_average_watts": 210,
-                        "kilojoules": 788.7,
-                        "device_watts": true,
-                        "has_heartrate": true,
-                        "average_heartrate": 140.3,
-                        "max_heartrate": 178,
-                        "max_watts": 406,
-                        "pr_count": 0,
-                        "total_photo_count": 1,
-                        "has_kudoed": false,
-                        "suffer_score": 82
-                    },
-                    {
-                        "resource_state": 2,
-                        "athlete": {
-                            "id": 167560,
-                            "resource_state": 1
-                        },
-                        "name": "Bondcliff",
-                        "distance": 23676.5,
-                        "moving_time": 5400,
-                        "elapsed_time": 5400,
-                        "total_elevation_gain": 0,
-                        "type": "Ride",
-                        "sport_type": "MountainBikeRide",
-                        "workout_type": null,
-                        "id": 1234567809,
-                        "external_id": "garmin_push_12345678987654321",
-                        "upload_id": 1234567819,
-                        "start_date": "2018-04-30T12:35:51Z",
-                        "start_date_local": "2018-04-30T05:35:51Z",
-                        "timezone": "(GMT-08:00) America/Los_Angeles",
-                        "utc_offset": -25200,
-                        "start_latlng": null,
-                        "end_latlng": null,
-                        "location_city": null,
-                        "location_state": null,
-                        "location_country": "United States",
-                        "achievement_count": 0,
-                        "kudos_count": 4,
-                        "comment_count": 0,
-                        "athlete_count": 1,
-                        "photo_count": 0,
-                        "map": {
-                            "id": "a12345689",
-                            "summary_polyline": null,
-                            "resource_state": 2
-                        },
-                        "trainer": true,
-                        "commute": false,
-                        "manual": false,
-                        "private": false,
-                        "flagged": false,
-                        "gear_id": "b12345678912343",
-                        "from_accepted_tag": false,
-                        "average_speed": 4.385,
-                        "max_speed": 8.8,
-                        "average_cadence": 69.8,
-                        "average_watts": 200,
-                        "weighted_average_watts": 214,
-                        "kilojoules": 1080,
-                        "device_watts": true,
-                        "has_heartrate": true,
-                        "average_heartrate": 152.4,
-                        "max_heartrate": 183,
-                        "max_watts": 403,
-                        "pr_count": 0,
-                        "total_photo_count": 1,
-                        "has_kudoed": false,
-                        "suffer_score": 162
-                    }
-                  ]
+                {
+                  "resource_state": 2,
+                  "athlete": {
+                    "id": 134815,
+                    "resource_state": 1
+                  },
+                  "name": "Happy Friday",
+                  "distance": 24931.4,
+                  "moving_time": 4500,
+                  "elapsed_time": 4500,
+                  "total_elevation_gain": 0,
+                  "type": "Ride",
+                  "sport_type": "MountainBikeRide",
+                  "workout_type": null,
+                  "id": 154504250376823,
+                  "external_id": "garmin_push_12345678987654321",
+                  "upload_id": 987654321234567900000,
+                  "start_date": "2018-05-02T12:15:09Z",
+                  "start_date_local": "2018-05-02T05:15:09Z",
+                  "timezone": "(GMT-08:00) America/Los_Angeles",
+                  "utc_offset": -25200,
+                  "start_latlng": null,
+                  "end_latlng": null,
+                  "location_city": null,
+                  "location_state": null,
+                  "location_country": "United States",
+                  "achievement_count": 0,
+                  "kudos_count": 3,
+                  "comment_count": 1,
+                  "athlete_count": 1,
+                  "photo_count": 0,
+                  "map": {
+                    "id": "a12345678987654321",
+                    "summary_polyline": null,
+                    "resource_state": 2
+                  },
+                  "trainer": true,
+                  "commute": false,
+                  "manual": false,
+                  "private": false,
+                  "flagged": false,
+                  "gear_id": "b12345678987654321",
+                  "from_accepted_tag": false,
+                  "average_speed": 5.54,
+                  "max_speed": 11,
+                  "average_cadence": 67.1,
+                  "average_watts": 175.3,
+                  "weighted_average_watts": 210,
+                  "kilojoules": 788.7,
+                  "device_watts": true,
+                  "has_heartrate": true,
+                  "average_heartrate": 140.3,
+                  "max_heartrate": 178,
+                  "max_watts": 406,
+                  "pr_count": 0,
+                  "total_photo_count": 1,
+                  "has_kudoed": false,
+                  "suffer_score": 82
+                },
+                {
+                  "resource_state": 2,
+                  "athlete": {
+                    "id": 167560,
+                    "resource_state": 1
+                  },
+                  "name": "Bondcliff",
+                  "distance": 23676.5,
+                  "moving_time": 5400,
+                  "elapsed_time": 5400,
+                  "total_elevation_gain": 0,
+                  "type": "Ride",
+                  "sport_type": "MountainBikeRide",
+                  "workout_type": null,
+                  "id": 1234567809,
+                  "external_id": "garmin_push_12345678987654321",
+                  "upload_id": 1234567819,
+                  "start_date": "2018-04-30T12:35:51Z",
+                  "start_date_local": "2018-04-30T05:35:51Z",
+                  "timezone": "(GMT-08:00) America/Los_Angeles",
+                  "utc_offset": -25200,
+                  "start_latlng": null,
+                  "end_latlng": null,
+                  "location_city": null,
+                  "location_state": null,
+                  "location_country": "United States",
+                  "achievement_count": 0,
+                  "kudos_count": 4,
+                  "comment_count": 0,
+                  "athlete_count": 1,
+                  "photo_count": 0,
+                  "map": {
+                    "id": "a12345689",
+                    "summary_polyline": null,
+                    "resource_state": 2
+                  },
+                  "trainer": true,
+                  "commute": false,
+                  "manual": false,
+                  "private": false,
+                  "flagged": false,
+                  "gear_id": "b12345678912343",
+                  "from_accepted_tag": false,
+                  "average_speed": 4.385,
+                  "max_speed": 8.8,
+                  "average_cadence": 69.8,
+                  "average_watts": 200,
+                  "weighted_average_watts": 214,
+                  "kilojoules": 1080,
+                  "device_watts": true,
+                  "has_heartrate": true,
+                  "average_heartrate": 152.4,
+                  "max_heartrate": 183,
+                  "max_watts": 403,
+                  "pr_count": 0,
+                  "total_photo_count": 1,
+                  "has_kudoed": false,
+                  "suffer_score": 162
                 }
-              },
+              ]
+            }
+          },
           "default": {
             "description": "Unexpected error.",
             "schema": {
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "z8xcfxh1gshga"
         }
       }
     },
@@ -1685,15 +1730,15 @@
             "examples": {
               "application/json": [
                 {
-                  "id": 12345678987654321,
+                  "id": 12345678987654320,
                   "resource_state": 2,
                   "name": "Lap 1",
                   "activity": {
-                    "id": 12345678987654321,
+                    "id": 12345678987654320,
                     "resource_state": 1
                   },
                   "athlete": {
-                    "id": 12345678987654321,
+                    "id": 12345678987654320,
                     "resource_state": 1
                   },
                   "elapsed_time": 1691,
@@ -1721,6 +1766,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "rdupkpswacziz"
         }
       }
     },
@@ -1758,6 +1806,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "8lkd57ftylpqm"
         }
       }
     },
@@ -1817,8 +1868,8 @@
             "examples": {
               "application/json": [
                 {
-                  "id": 12345678987654321,
-                  "activity_id": 12345678987654321,
+                  "id": 12345678987654320,
+                  "activity_id": 12345678987654320,
                   "post_id": null,
                   "resource_state": 2,
                   "text": "Good job and keep the cat pictures coming!",
@@ -1839,6 +1890,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "l0f1ngqarcx4h"
         }
       }
     },
@@ -1890,6 +1944,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "nzr2l44ev73dd"
         }
       }
     },
@@ -1927,7 +1984,13 @@
                 "cover_photo": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/1/4328276/1/large.jpg",
                 "cover_photo_small": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/1/4328276/1/small.jpg",
                 "sport_type": "cycling",
-                "activity_types": ["Ride", "VirtualRide", "EBikeRide", "Velomobile", "Handcycle"],
+                "activity_types": [
+                  "Ride",
+                  "VirtualRide",
+                  "EBikeRide",
+                  "Velomobile",
+                  "Handcycle"
+                ],
                 "city": "San Francisco",
                 "state": "California",
                 "country": "United States",
@@ -1953,6 +2016,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "pjdq6buddq2m6"
         }
       }
     },
@@ -2008,6 +2074,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "m2cjgadb8h206"
         }
       }
     },
@@ -2060,6 +2129,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "1srcgvsar6c2w"
         }
       }
     },
@@ -2123,6 +2195,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "gpe9igcd91m27"
         }
       }
     },
@@ -2180,6 +2255,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "fxz39cnmcyh83"
         }
       }
     },
@@ -2225,6 +2303,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "eywlekde64pth"
         }
       }
     },
@@ -2259,6 +2340,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "c8tkv8skiqlh1"
         }
       }
     },
@@ -2294,6 +2378,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "51c61ih2gaibs"
         }
       }
     },
@@ -2319,10 +2406,10 @@
           "200": {
             "description": "A GPX file with the route.",
             "content": {
-              "application/gpx+xml" : {
+              "application/gpx+xml": {
                 "schema": {
-                   "type" : "string",
-                   "format": "binary"
+                  "type": "string",
+                  "format": "binary"
                 }
               }
             }
@@ -2333,6 +2420,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "sg66nv8axn5o6"
         }
       }
     },
@@ -2358,10 +2448,10 @@
           "200": {
             "description": "A TCX file with the route.",
             "content": {
-              "application/tcx+xml" : {
+              "application/tcx+xml": {
                 "schema": {
-                   "type" : "string",
-                   "format": "binary"
+                  "type": "string",
+                  "format": "binary"
                 }
               }
             }
@@ -2372,6 +2462,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "u8nxbm54sanq5"
         }
       }
     },
@@ -2451,6 +2544,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "8sn7xdrepj9o5"
         }
       }
     },
@@ -2485,6 +2581,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "8wdaog2bfqqrq"
         }
       }
     },
@@ -2576,6 +2675,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "abhd8vfudk0e4"
         }
       }
     },
@@ -2669,6 +2771,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "8m316myvbps07"
         }
       }
     },
@@ -2768,6 +2873,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "z9onuk4uhb8rw"
         }
       }
     },
@@ -2833,6 +2941,9 @@
               "$ref": "https://developers.strava.com/swagger/fault.json#/Fault"
             }
           }
+        },
+        "x-stoplight": {
+          "id": "lqxby0mleioct"
         }
       }
     }
